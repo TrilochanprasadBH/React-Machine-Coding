@@ -1,7 +1,8 @@
+import Counter from "./components/Counter";
 export default function App() {
   return (
-    <div className="h-screen w-full flex items-center justify-center text-4xl font-bold">
-      01-counter ✅ Tailwind v4 working perfectly!
+    <div className="h-screen flex items-center justify-center text-2xl ">
+      <Counter />
     </div>
   );
 }
