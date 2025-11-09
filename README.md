@@ -111,6 +111,43 @@ mkdir projects
 
 ---
 
+Also create .gitignore :
+
+# Node
+
+node_modules/
+pnpm-lock.yaml
+
+# Build
+
+dist/
+build/
+
+# OS files
+
+.DS_Store
+
+# Logs
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Vite caches
+
+\*.local
+
+# Project build outputs
+
+projects/_/dist
+projects/_/build
+
+# IDE
+
+.vscode/
+.idea/
+
 # ✅ 7. Generator Script (auto scaffold new apps)
 
 Create:
